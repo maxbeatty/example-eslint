@@ -1,0 +1,12 @@
+{
+  "name": "example-eslint",
+  "version": "1.0.0",
+  "description": "Example ESLint configurations",
+  "main": "index.js",
+  "repository": "git@github.com:maxbeatty/example-eslint.git",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">= 10"
+  }
+}
