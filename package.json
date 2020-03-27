@@ -8,5 +8,14 @@
   "private": true,
   "engines": {
     "node": ">= 10"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "5",
+    "eslint-plugin-square": "maxbeatty/eslint-plugin-square#square/mbeatty-typescript",
+    "typescript": "^3.8.3"
   }
 }
