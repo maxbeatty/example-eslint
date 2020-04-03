@@ -9,8 +9,13 @@
   "engines": {
     "node": ">= 10"
   },
+  "scripts": {
+    "lint": "eslint --ext js,ts ."
+  },
   "devDependencies": {
+    "@typescript-eslint/parser": "^2.26.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-square": "^13.2.1"
+    "eslint-plugin-square": "^13.2.1",
+    "typescript": "^3.8.3"
   }
 }
