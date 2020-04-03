@@ -1,6 +1,6 @@
 declare class Animal {
-    constructor(age: number);
-    makeNoise: () => string;
+  constructor(age: number);
+  makeNoise: () => string;
 }
 
 export default class Calculator {
@@ -13,6 +13,6 @@ export default class Calculator {
   }
 
   surprise(pet: Animal) {
-      return pet.makeNoise()
+    return pet.makeNoise();
   }
 }

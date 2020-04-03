@@ -3,5 +3,10 @@
     "parserOptions": {
         "project": "./tsconfig.eslint.json"
     },
-    "extends": ["plugin:square/typescript"]
+    "extends": ["plugin:square/typescript"],
+    "rules": {
+        "no-useless-constructor": "off",
+        "@typescript-eslint/no-useless-constructor": "error"
+
+      }
 }
