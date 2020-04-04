@@ -492,9 +492,10 @@ eslint-plugin-react@^7.19.0:
     string.prototype.matchall "^4.0.2"
     xregexp "^4.3.0"
 
-eslint-plugin-square@maxbeatty/eslint-plugin-square#typescript/fix-no-useless-constructor:
-  version "13.2.1"
-  resolved "https://codeload.github.com/maxbeatty/eslint-plugin-square/tar.gz/68a077df5be8e438ad9726f770eb59615909f876"
+eslint-plugin-square@^13.2.2:
+  version "13.2.2"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/eslint-plugin-square/-/eslint-plugin-square-13.2.2.tgz#69ab63bc38bce318a32b3764fac09255b25416ba"
+  integrity sha1-aatjvDi84xijKzdk+sCSVbJUFro=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.26.0"
     camelcase "^5.3.1"
